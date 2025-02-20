@@ -1,4 +1,4 @@
-package day02
+package solvers
 
 import (
 	"slices"
@@ -35,7 +35,7 @@ func (b *box) ribbonLength() int {
 }
 
 //goland:noinspection GoUnusedExportedFunction
-func Solve(input []string) (int, int) {
+func Solve02(input []string) (int, int) {
 	totalPaperArea := 0
 	totalRibbonLength := 0
 

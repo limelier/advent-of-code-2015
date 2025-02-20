@@ -1,11 +1,11 @@
-package day01
+package solvers
 
 import (
 	"log"
 )
 
 //goland:noinspection GoUnusedExportedFunction
-func Solve(input string) (int, int) {
+func Solve01(input string) (int, int) {
 	floor := 0
 	var firstBasementEntrance int
 	for pos, char := range input {
