@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	input := common.InputLines()
-	p1, p2 := solvers.Solve02(input)
+	input := common.Input()
+	p1, p2 := solvers.Solve03(input)
 	common.Output(p1, p2)
 }
